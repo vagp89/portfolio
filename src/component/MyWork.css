@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.mywork-section {
+  height: 100vh;
+  background-color:#f6dfeb;
+  display:flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-behavior: auto;
+  overflow-x: hidden;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("https://images.unsplash.com/photo-1617330411212-b9764eca9913?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80") no-repeat;
+  background-size: cover;
+  background-position:  center;
+  margin: 0 auto;
+
+}
+
+
+.title{
+  font-size: 50px;
+  font-family: "Roboto-Condesed" sans-serif;
+  color: #ffdada;
+  margin-right: 50px;
+}
+.title2{
+  font-size: 20px;
+  font-family: "Roboto-Condesed" sans-serif;
+  color: #ffdada;
+}
+
+
+.item-card {
+  background-color: white;
+  margin: 20px;
+  height: 500px;
+  width: 400px;
+  margin-left:170px;
+  border-radius: 17px;
+  font-family: "Roboto-Condesed" sans-serif;
+  color:#383e56;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.9), 0 0 6px rgba(0,0,0,0.4);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+
+
+}
+.item-card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.9), 0 4px 8px rgba(0,0,0,.03);
+}
+
+.image{
+  height: 300px;
+  width: 290px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+
+/*/*cuando es mas pequeño*/
+@media(max-width: 900px) {
+  .item-card {
+    margin-left:40px;
+    margin-right: 60px;
+    min-width: 300px;
+
+  }
+  .image{
+  height: 250px;
+  width: 210px;
+  margin: 20px;
+  }
+   .title{
+  margin:auto;
+  }
+  .title2{
+  margin:auto;
+}
+}
+
+
+/*cuando es mas grande*/
+@media(min-width: 900px) {
+ /* .item-card {
+
+    margin-left:50px;
+    margin-right: 60px;
+    min-width: 300px;
+
+  }*/
+  .image{
+    height: 230px;
+    width: 160px;
+    margin: 15px;
+    min-width: 50px;
+  }
+
+  .title{
+  margin:auto;
+  }
+  .title2{
+  margin:auto;
+}
+}
+
