@@ -59,12 +59,7 @@ text-transform: uppercase;
   border-top:0.18rem solid var(--primary-blue)!important;
 }
 
-@media(max-width: 900px) {
- .nav-link {
-  font-size: 11px !important;
-}
 
-}
 
 /*.active {
   border-top:0.18rem solid var(--primary-violet)!important;

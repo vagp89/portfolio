@@ -1,5 +1,7 @@
 .skills-section{
   height: 100vh;
+  overflow-y: scroll;
+  scroll-behavior: auto;
 
 }
 
@@ -11,9 +13,10 @@
   margin-top:20px;
 }
 
-.container{
+.skills{
   width: 50%;
   margin: 0 auto;
+
 }
 @keyframes load{
   from {

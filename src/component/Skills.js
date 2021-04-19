@@ -28,6 +28,7 @@ const Skills = () => {
           />
      <h1 className="skill-title"> Skill Set</h1>
      <div class="container">
+       <div className="skills">
         <div class="bar front advanced" data-skill="CSS3"></div>
         <div class="bar front expert" data-skill="HTML5"></div>
         <div class="bar front advanced" data-skill="Ruby"></div>
@@ -43,6 +44,7 @@ const Skills = () => {
         <div class="bar back intermediate" data-skill="React-stripe-js"></div>
         <div class="bar back intermediate" data-skill="Material-U"></div>
         <div class="bar back intermediate" data-skill="React-currency-format"></div>
+        </div>
       </div>
     </div>
   )
